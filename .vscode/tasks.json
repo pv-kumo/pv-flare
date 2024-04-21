@@ -9,8 +9,7 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "-lflycpu",
-                "-I/opt/EA/inf/include"
+                "-lflycpu"
             ],
             "options": {
                 "cwd": "${fileDirname}"
