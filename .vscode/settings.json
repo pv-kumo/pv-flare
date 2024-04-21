@@ -2,7 +2,7 @@
     "window.showNotificationOnLoad": true,
     "resmongraphical.cpuusage.style": "SquareColor",
     "code-runner.executorMapByGlob": {
-        "*.cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -lflycpu -I/opt/EA/inf/include && $dir$fileNameWithoutExt"
+        "*.cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -lflycpu && $dir$fileNameWithoutExt"
     },
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.runInTerminal": true,
