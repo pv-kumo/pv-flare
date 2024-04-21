@@ -9,6 +9,7 @@
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
+                "-L/opt/EA/inf/lib",
                 "-lflycpu"
             ],
             "options": {
