@@ -10,7 +10,8 @@
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lflycpu",
-                "-I/opt/EA/inf/flare/include"
+                "-I",
+                "/opt/EA/inf/flare/include"
             ],
             "options": {
                 "cwd": "${fileDirname}"
